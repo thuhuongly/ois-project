@@ -1,0 +1,3458 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY webprotege2 "http://webprotege.stanford.edu/" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY webprotege "http://protege.stanford.edu/webprotege/" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#"
+     xml:base="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:webprotege="http://protege.stanford.edu/webprotege/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:webprotege2="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU">
+        <webprotege:revision rdf:datatype="&xsd;integer">185</webprotege:revision>
+        <dc:date rdf:datatype="&xsd;dateTime">Apr 27, 2015 8:00:55 PM</dc:date>
+        <rdfs:comment rdf:datatype="&xsd;string">Family search based on name, physical characteristic, genetic diseases...</rdfs:comment>
+        <dc:creator rdf:datatype="&xsd;string">PhVera</dc:creator>
+        <rdfs:comment rdf:datatype="&xsd;string">This ontology was generated from an ontology revision in WebProtege http://starpc14.vub.ac.be</rdfs:comment>
+        <dc:creator rdf:datatype="&xsd;string">eman_elsayed</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">guest</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">system</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">thuhuongly</dc:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7kBTH1KZcciVcfmJ3lhN0 -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;R7kBTH1KZcciVcfmJ3lhN0">
+        <rdfs:label>hasMaritalStatus</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8c6Tz8X9MIM7wNsvlIPqQZ -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;R8c6Tz8X9MIM7wNsvlIPqQZ">
+        <rdfs:label>hasAddress</rdfs:label>
+        <rdfs:range rdf:resource="&webprotege2;R738egHAzjF8PTO8NUomcTv"/>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8d3YV3BChABPtg8kE9EfAs -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;R8d3YV3BChABPtg8kE9EfAs">
+        <rdfs:label>hasRelationship</rdfs:label>
+        <rdfs:range rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDxYLujAy4WfLl3MSmlotO -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;RCDxYLujAy4WfLl3MSmlotO">
+        <rdfs:label>isComposedBy</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDFs5W61r7wT1bTb678PLky"/>
+        <rdfs:range rdf:resource="&webprotege2;RDvz7SDgC79dr8LcM8A5R1V"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCavdfaSPxT1cttkWjafNKV -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;RCavdfaSPxT1cttkWjafNKV">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>motherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCoHHSOJh65ykMLuwUrJPBp -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label>spouseOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R7kBTH1KZcciVcfmJ3lhN0"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWS628m9OznhdRNeegKsuj -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;RDWS628m9OznhdRNeegKsuj">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>fatherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXdNhAEH1cUp36S9qhJV3 -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;RXdNhAEH1cUp36S9qhJV3">
+        <rdfs:label>hasMedicalCondition</rdfs:label>
+        <rdfs:range rdf:resource="&webprotege2;R88otlJ3kZiu69miwSgDKWj"/>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYcyYAAiPS40g2NgzGBK1T -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;RYcyYAAiPS40g2NgzGBK1T">
+        <rdfs:label>hasPhysicalCharacteristics</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&webprotege2;RDQYRfoFAFZuXZPksBKqQJZ"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rxu4ffxEaRD3PZ3YYXpHqo -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>childOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#a -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#a">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>maleCousinOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#cousinOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#auntOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#auntOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>auntOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#parentsSiblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#brotherOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#brotherOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>brotherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#cousinOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#cousinOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label>cousinOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+        <owl:inverseOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#cousinOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#daughterOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#daughterOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>daughterOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#femaleCousin -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#femaleCousin">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>femaleCousinOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#cousinOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#grand -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grand">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>grandParentOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#grandChildOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandChildOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>grandChildOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+        <owl:inverseOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#grandDaughterOF -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandDaughterOF">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>grandDaughterOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#grandFatherOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandFatherOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>grandFatherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#grandMotherOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandMotherOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>grandMotherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#grandSon -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandSon">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>grandSonOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandChildOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#halfBrotherOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfBrotherOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>halfBrotherOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSibling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#halfSibling -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSibling">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label>halfSiblingOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+        <owl:inverseOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSibling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#halfSister -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSister">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>halfSisterOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSibling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#hasChild -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>parentOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+        <owl:inverseOf rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#husbandOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#husbandOf">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>husbandOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#nephewOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nephewOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>nephewOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nibling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#nibling -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nibling">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>niblingOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+        <owl:inverseOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#parentsSiblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#nieceOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nieceOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>nieceOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nibling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#parentsSiblingOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#parentsSiblingOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>parentsSiblingOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#siblingOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label>siblingOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+        <owl:inverseOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#sisterOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#sisterOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>sisterOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#sonOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#sonOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>sonOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#stepBrotherOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepBrotherOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label>stepSiblingOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;R8d3YV3BChABPtg8kE9EfAs"/>
+        <owl:inverseOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#stepSisterOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSisterOf">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#uncleOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#uncleOf">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>uncleOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#parentsSiblingOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#wifeOf -->
+
+    <owl:ObjectProperty rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#wifeOf">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:label>wifeOf</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7acI8YNJdsX8cceLmvSumL -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R7acI8YNJdsX8cceLmvSumL">
+        <rdfs:label>FirstName</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ggQmaU8dzJGg6MiU2DJ9d -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R7ggQmaU8dzJGg6MiU2DJ9d">
+        <rdfs:label>Continent</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R738egHAzjF8PTO8NUomcTv"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7vG9U8ou0xi6munoRgqzY -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R7vG9U8ou0xi6munoRgqzY">
+        <rdfs:label>Country</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R738egHAzjF8PTO8NUomcTv"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82AgaG3W8Fff9WM9kACX6K -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R82AgaG3W8Fff9WM9kACX6K">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label>MaritalID</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDFs5W61r7wT1bTb678PLky"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8A9cLYE8fOUmrkqtzSJTgD -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R8A9cLYE8fOUmrkqtzSJTgD">
+        <rdfs:label>DiseaseId</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R88otlJ3kZiu69miwSgDKWj"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8I0ywZbUIcaa0fAROGjCuu -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R8I0ywZbUIcaa0fAROGjCuu">
+        <rdfs:label>SpouseID</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDvz7SDgC79dr8LcM8A5R1V"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dKaJDwQgyTGGLv1IjrisK -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R8dKaJDwQgyTGGLv1IjrisK">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label>ID</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R738egHAzjF8PTO8NUomcTv"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xR2RMo2z6IXsr8RvjFYZ9 -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R8xR2RMo2z6IXsr8RvjFYZ9">
+        <rdfs:label>LastName</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Sj94DhQYyIZh8YjgjaziG -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R9Sj94DhQYyIZh8YjgjaziG">
+        <rdfs:label>Status</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDvz7SDgC79dr8LcM8A5R1V"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZBvP7JBfzkMXnAtLTAIQW -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R9ZBvP7JBfzkMXnAtLTAIQW">
+        <rdfs:label>DeathDate</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9o69eRYIBjE2s1MnzO5In2 -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;R9o69eRYIBjE2s1MnzO5In2">
+        <rdfs:label>Gender</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFm4ZEtaKvkpa5ZMm8HqVa -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RBFm4ZEtaKvkpa5ZMm8HqVa">
+        <rdfs:label>Date</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDFs5W61r7wT1bTb678PLky"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUzg0XlO6MlHTYV4jHaXjZ -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RBUzg0XlO6MlHTYV4jHaXjZ">
+        <rdfs:label>PostalCode</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R738egHAzjF8PTO8NUomcTv"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcDunCzv6duT8rzTQPwOtO -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RBcDunCzv6duT8rzTQPwOtO">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label>PersonID</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBypn8fIbhgHegft4P33Ubi -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RBypn8fIbhgHegft4P33Ubi">
+        <rdfs:label>StreetName</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R738egHAzjF8PTO8NUomcTv"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC29ySlK0l4gW1q00eyPmR -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RC29ySlK0l4gW1q00eyPmR">
+        <rdfs:label>Name</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R88otlJ3kZiu69miwSgDKWj"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCE94h96kk4SnN9C7LfbnkX -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RCE94h96kk4SnN9C7LfbnkX">
+        <rdfs:label>PhysicalID</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDQYRfoFAFZuXZPksBKqQJZ"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTp5frVTAAOvMlsIaq9Ghe -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RCTp5frVTAAOvMlsIaq9Ghe">
+        <rdfs:label>EyeColor</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDQYRfoFAFZuXZPksBKqQJZ"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwlbaXcSYq56h5hXppsMLc -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RCwlbaXcSYq56h5hXppsMLc">
+        <rdfs:label>BirthDate</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCz3qISnLCTD4XELDAocCI7 -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RCz3qISnLCTD4XELDAocCI7">
+        <rdfs:label>BirthPlace</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgGZZT50czOjRhTSsPTGyu -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RDgGZZT50czOjRhTSsPTGyu">
+        <rdfs:label>StreetNumber</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R738egHAzjF8PTO8NUomcTv"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDiV3paC7p4v1VzWQLPuxxp -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RDiV3paC7p4v1VzWQLPuxxp">
+        <rdfs:label>SkinColor</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDQYRfoFAFZuXZPksBKqQJZ"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RarGQ8pIHRipV0sGhpEEZB -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RarGQ8pIHRipV0sGhpEEZB">
+        <rdfs:label>HairColor</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDQYRfoFAFZuXZPksBKqQJZ"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rdea8nqRXDrFIjDBZFCuRQ -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;Rdea8nqRXDrFIjDBZFCuRQ">
+        <rdfs:label>InheritedFromId</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R88otlJ3kZiu69miwSgDKWj"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rejy5NZOEBflKBiqLa4KN5 -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;Rejy5NZOEBflKBiqLa4KN5">
+        <rdfs:label>City</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;R738egHAzjF8PTO8NUomcTv"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnHnl40eegWhvfqABTng7H -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RnHnl40eegWhvfqABTng7H">
+        <rdfs:label>Height</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDQYRfoFAFZuXZPksBKqQJZ"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyCfR7ny7RVzflSDvkQEQQ -->
+
+    <owl:DatatypeProperty rdf:about="&webprotege2;RyCfR7ny7RVzflSDvkQEQQ">
+        <rdfs:label>MaritalPlace</rdfs:label>
+        <rdfs:domain rdf:resource="&webprotege2;RDFs5W61r7wT1bTb678PLky"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R738egHAzjF8PTO8NUomcTv -->
+
+    <owl:Class rdf:about="&webprotege2;R738egHAzjF8PTO8NUomcTv">
+        <rdfs:label>Address</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88otlJ3kZiu69miwSgDKWj -->
+
+    <owl:Class rdf:about="&webprotege2;R88otlJ3kZiu69miwSgDKWj">
+        <rdfs:label>MedicalCondition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7duytw9JkcHuHW5fTYdbH -->
+
+    <owl:Class rdf:about="&webprotege2;RB7duytw9JkcHuHW5fTYdbH">
+        <rdfs:label>Person</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFs5W61r7wT1bTb678PLky -->
+
+    <owl:Class rdf:about="&webprotege2;RDFs5W61r7wT1bTb678PLky">
+        <rdfs:label>MaritalHistory</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDQYRfoFAFZuXZPksBKqQJZ -->
+
+    <owl:Class rdf:about="&webprotege2;RDQYRfoFAFZuXZPksBKqQJZ">
+        <rdfs:label>PhysicalCharacteristics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvz7SDgC79dr8LcM8A5R1V -->
+
+    <owl:Class rdf:about="&webprotege2;RDvz7SDgC79dr8LcM8A5R1V">
+        <rdfs:label>MaritalStatus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Dad -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Dad">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:RBcDunCzv6duT8rzTQPwOtO rdf:datatype="&xsd;int">1</webprotege2:RBcDunCzv6duT8rzTQPwOtO>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2 rdf:datatype="&xsd;string">male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Daughter"/>
+        <brotherOf rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mother1"/>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son"/>
+        <webprotege2:R7kBTH1KZcciVcfmJ3lhN0 rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Status1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Dad2 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Dad2">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Dad3 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Dad3">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Daughter3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Daughter -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Daughter">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2 rdf:datatype="&xsd;string">female</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Daughter3 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Daughter3">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>female</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Father1 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Father1">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#MaleChild1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Father2 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Father2">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#MaleChild2"/>
+        <webprotege2:RCoHHSOJh65ykMLuwUrJPBp rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mother1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#GrandFather -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#GrandFather">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2 rdf:datatype="&xsd;string">male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Dad2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#GrandMother -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#GrandMother">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2 rdf:datatype="&xsd;string">female</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <grand rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#MaleChild1 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#MaleChild1">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#MaleChild2 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#MaleChild2">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Mom -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mom">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:RBcDunCzv6duT8rzTQPwOtO rdf:datatype="&xsd;int">2</webprotege2:RBcDunCzv6duT8rzTQPwOtO>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2 rdf:datatype="&xsd;string">female</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Daughter"/>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Mom2 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mom2">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>female</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Daughter3"/>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Mom3 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mom3">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Mother1 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mother1">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>female</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#MaleChild1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Mother2 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mother2">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>female</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+        <hasChild rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#MaleChild2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Record1 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Record1">
+        <rdf:type rdf:resource="&webprotege2;RDFs5W61r7wT1bTb678PLky"/>
+        <webprotege2:R8dKaJDwQgyTGGLv1IjrisK rdf:datatype="&xsd;int">1</webprotege2:R8dKaJDwQgyTGGLv1IjrisK>
+        <webprotege2:RBcDunCzv6duT8rzTQPwOtO rdf:datatype="&xsd;int">1</webprotege2:RBcDunCzv6duT8rzTQPwOtO>
+        <webprotege2:R8I0ywZbUIcaa0fAROGjCuu rdf:datatype="&xsd;int">2</webprotege2:R8I0ywZbUIcaa0fAROGjCuu>
+        <webprotege2:RCDxYLujAy4WfLl3MSmlotO rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Status1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Son -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2 rdf:datatype="&xsd;string">male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Son2 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son2">
+        <rdf:type rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+        <webprotege2:R9o69eRYIBjE2s1MnzO5In2>male</webprotege2:R9o69eRYIBjE2s1MnzO5In2>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/project/86OZkbUV0i6KuwfaHFOYOU#Status1 -->
+
+    <owl:NamedIndividual rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Status1">
+        <rdf:type rdf:resource="&webprotege2;RDvz7SDgC79dr8LcM8A5R1V"/>
+        <webprotege2:R8dKaJDwQgyTGGLv1IjrisK rdf:datatype="&xsd;int">1</webprotege2:R8dKaJDwQgyTGGLv1IjrisK>
+        <webprotege2:R9Sj94DhQYyIZh8YjgjaziG rdf:datatype="&xsd;string">Married</webprotege2:R9Sj94DhQYyIZh8YjgjaziG>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Dad"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Dad2"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Dad3"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Daughter"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Daughter3"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Father1"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Father2"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#GrandFather"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#GrandMother"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#MaleChild1"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#MaleChild2"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mom"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mom2"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mom3"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mother1"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Mother2"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son"/>
+            <rdf:Description rdf:about="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#Son2"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl#x">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#y">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#u">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#z">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#v">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#w">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#m1">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#m2">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#f">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#m">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#f1">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#f2">
+        <rdf:type rdf:resource="&swrl;Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandFatherOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grand"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#sisterOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#z"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                                                                <rdf:first>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                                        <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                                                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:first>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                                <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                                                <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#u"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#femaleCousin"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#cousinOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#daughterOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCavdfaSPxT1cttkWjafNKV"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#m1"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;RDWS628m9OznhdRNeegKsuj"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#f"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="&webprotege2;RDWS628m9OznhdRNeegKsuj"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#f"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#m1"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#m2"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="&webprotege2;RCavdfaSPxT1cttkWjafNKV"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#m2"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSibling"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#sonOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#a"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#cousinOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSisterOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#husbandOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#wifeOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                                                                <rdf:first>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                                        <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                                                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:first>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                                <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                                                <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#z"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                    </rdf:Description>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                            </rdf:Description>
+                        </rdf:rest>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#u"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                        <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCavdfaSPxT1cttkWjafNKV"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nephewOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nibling"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#z"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nibling"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandChildOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#v"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#cousinOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandDaughterOF"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandChildOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#parentsSiblingOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#auntOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#brotherOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#siblingOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nibling"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#nieceOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grand"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandMotherOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandChildOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#grandSon"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="&webprotege2;RCavdfaSPxT1cttkWjafNKV"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#m"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;RDWS628m9OznhdRNeegKsuj"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#f1"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                        <rdf:rest rdf:resource="&rdf;nil"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#f1"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#f2"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="&webprotege2;RDWS628m9OznhdRNeegKsuj"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#f2"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCavdfaSPxT1cttkWjafNKV"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#m"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                            </rdf:Description>
+                        </rdf:rest>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSibling"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#parentsSiblingOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#uncleOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#z"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                            </rdf:Description>
+                        </rdf:rest>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                                <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                                                <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                                                                <rdf:first>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                                        <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                                                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:first>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#z"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#u"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSibling"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfBrotherOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                                                                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                                <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                                                                <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                                                                <rdf:first>
+                                                                                                    <rdf:Description>
+                                                                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                                        <swrl:argument2 rdf:resource="urn:swrl#w"/>
+                                                                                                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                                                                                    </rdf:Description>
+                                                                                                </rdf:first>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:rest>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                                                <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+                                                                        <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                                                                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                                <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                                <swrl:argument1 rdf:resource="urn:swrl#w"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#v"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#hasChild"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#z"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#u"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#u"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSister"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">female</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#halfSibling"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;RDWS628m9OznhdRNeegKsuj"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;Rxu4ffxEaRD3PZ3YYXpHqo"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                        <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="&webprotege2;RB7duytw9JkcHuHW5fTYdbH"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                        <swrl:argument2 rdf:datatype="&xsd;string">married</swrl:argument2>
+                                        <swrl:propertyPredicate rdf:resource="&webprotege2;R9Sj94DhQYyIZh8YjgjaziG"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                                <swrl:argument2 rdf:datatype="&xsd;string">married</swrl:argument2>
+                                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9Sj94DhQYyIZh8YjgjaziG"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&swrl;AtomList"/>
+                                                <rdf:rest rdf:resource="&rdf;nil"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&swrl;DifferentIndividualsAtom"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;RCoHHSOJh65ykMLuwUrJPBp"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&swrl;Imp"/>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:rest rdf:resource="&rdf;nil"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepBrotherOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+            </rdf:Description>
+        </swrl:head>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="&swrl;AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="&webprotege2;project/86OZkbUV0i6KuwfaHFOYOU#stepSiblingOf"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="&swrl;AtomList"/>
+                        <rdf:rest rdf:resource="&rdf;nil"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="&swrl;DatavaluedPropertyAtom"/>
+                                <swrl:argument2 rdf:datatype="&xsd;string">male</swrl:argument2>
+                                <swrl:propertyPredicate rdf:resource="&webprotege2;R9o69eRYIBjE2s1MnzO5In2"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
